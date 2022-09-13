@@ -21,9 +21,10 @@ namespace Methods2
             Console.WriteLine($"{colour} is an awesome colour! What is your first animal?");
             var animal = Console.ReadLine();
 
-            Console.WriteLine("Oh I don't like that one! Now what is your favorite musical artist");
+            Console.WriteLine($"Oh I don't like that one! Now what is your favorite musical artist");
             var Artist = Console.ReadLine();
 
+            Console.WriteLine($"So let me get this right, you're name is {userName} you like {colour}, you're favorite animal is a {animal} and you listen to {Artist}?");
         }
     }
 }
